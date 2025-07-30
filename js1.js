@@ -13,7 +13,7 @@
 //     var id = document.getElementById(id).innerHTML;
 //     var title = document.getElementById(title).innerHTML;
 
-//     var link = "https://wa.me/+919688880848?text="
+//     var link = "https://wa.me/+919566406178?text="
     
 //     var final = link + "I_need_this" + id + title
 
