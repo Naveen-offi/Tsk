@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js"></script>
+
+    <title>TSK - Shop</title>
+</head>
+<body>
+    <script>
+        AOS.init();
+    </script>
+    <nav class="navbar">
+        <a href="index.html"><div class="logo"><h1>TSK <span class="nav-shop"> Shop </span></h1></div></a>
+        <ul class="menu">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="index.html#new-arrival">New Arrivals</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#" class="shop"><i class="fas fa-shopping-cart" aria-hidden="true"></i>Shop</a></li>
+        </ul>
+<!-- for resposive button -->
+        <div class="menu-btn">
+            <i class="fa fa-bars"></i>
+        </div>
+    </nav>
+
+    <section class="sec">
+        <div class="products">
+
+            <!-- card start -->
+            <div class="card">
+                <div class="img"><img src="img/Scooty.png" alt="Scooty"></div>
+                <div class="desc" id="id1">S101</div>
+                <div class="title" id="t1">Scooty - Sports 48v</div>
+                <div class="box">
+                    <div class="price"><span class="size">₹</span>60,000</div>
+                    <button class="btn" onclick="shop('id1', 't1')">Buy Now</button>
+                </div>
+            </div>
+            <!-- card end -->
+
+            <!-- card start -->
+            <div class="card">
+                <div class="img"><img src="img/Okinawa-Praisepro-Electric-Scooter-black.png" alt="Scooty"></div>
+                <div class="desc" id="sid1">S101</div>
+                <div class="title" id="st1">Okinawa E-Scooter</div>
+                <div class="box">
+                    <div class="price"><span class="size">₹</span>1,00,000</div>
+                    <button class="btn" onclick="shop('sid1', 'st1')">Buy Now</button>
+                </div>
+            </div>
+            <!-- card end -->
+
+            <!-- card start -->
+            <div class="card">
+                <div class="img"><img src="img/Lead_Acid_60v_battery_charger_ev.jpeg" alt="Lead Acid 60v battery charger ev"></div>
+                <div class="desc" id="id2">A102</div>
+                <div class="title" id="t2">Lead Acid 60v battery charger ev</div>
+                <div class="box">
+                    <div class="price"><span class="size">₹</span>2,190</div>
+                    <button class="btn" onclick="shop('id2', 't2')">Buy Now</button>
+                </div>
+            </div>
+            <!-- card end -->
+
+            <!-- card start -->
+            <div class="card">
+                <div class="img"><img src="img/Lead_Acid_48v_battery_charger_ev.jpg" alt="Lead Acid 48v battery charger ev"></div>
+                <div class="desc" id="id3">A103</div>
+                <div class="title" id="t3">Lead Acid 48v battery charger ev</div>
+                <div class="box">
+                    <div class="price"><span class="size">₹</span>1,750</div>
+                    <button class="btn" onclick="shop('id3', 't3')">Buy Now</button>
+                </div>
+            </div>
+            <!-- card end -->
+
+            <!-- card start -->
+            <div class="card">
+                <div class="img"><img src="img/Ev_bike_12v.jpeg" alt="Ev bike 12v"></div>
+                <div class="desc" id="id4">A104</div>
+                <div class="title" id="t4">Ev bike 12v</div>
+                <div class="box">
+                    <div class="price"><span class="size">₹</span>180</div>
+                    <button class="btn" onclick="shop('id4', 't4')">Buy Now</button>
+                </div>
+            </div>
+            <!-- card end -->
+
+            <!-- card start -->
+            <div class="card">
+                <div class="img"><img src="img/Headlight_glass.png" alt="Headlight glass"></div>
+                <div class="desc" id="id5">A105</div>
+                <div class="title" id="t5">Headlight glass</div>
+                <div class="box">
+                    <div class="price"><span class="size">₹</span>400</div>
+                    <button class="btn" onclick="shop('id5', 't5')">Buy Now</button>
+                </div>
+            </div>
+            <!-- card end -->
+
+            <!-- card start -->
+            <div class="card">
+                <div class="img"><img src="img/Lock_set.jpg" alt="Lock se"></div>
+                <div class="desc" id="id6">A106</div>
+                <div class="title" id="t6">Lock se</div>
+                <div class="box">
+                    <div class="price"><span class="size">₹</span>1,500</div>
+                    <button class="btn" onclick="shop('id6', 't6')">Buy Now</button>
+                </div>
+            </div>
+            <!-- card end -->
+
+            <!-- card start -->
+            <div class="card">
+                <div class="img"><img src="img/E-bike_scooter_throttle.png" alt="E bike scooter throttle"></div>
+                <div class="desc" id="id7">A107</div>
+                <div class="title" id="t7">E bike scooter throttle</div>
+                <div class="box">
+                    <div class="price"><span class="size">₹</span>280</div>
+                    <button class="btn" onclick="shop('id7', 't7')">Buy Now</button>
+                </div>
+            </div>
+            <!-- card end -->
+
+            <!-- card start -->
+            <div class="card">
+                <div class="img"><img src="img/Ev__Remote_Control.png" alt="Ev Remote Control"></div>
+                <div class="desc" id="id8">A108</div>
+                <div class="title" id="t8">Ev Remote Control</div>
+                <div class="box">
+                    <div class="price"><span class="size">₹</span>550</div>
+                    <button class="btn" onclick="shop('id8', 't8')">Buy Now</button>
+                </div>
+            </div>
+            <!-- card end -->
+            <!-- card start -->
+            <div class="card">
+                <div class="img"><img src="img/Ev_battery_charger_Connector.png" alt="Ev battery charger Connector"></div>
+                <div class="desc" id="id9">A109</div>
+                <div class="title" id="t9">Ev battery charger Connector</div>
+                <div class="box">
+                    <div class="price"><span class="size">₹</span>120</div>
+                    <button class="btn" onclick="shop('id9', 't9')">Buy Now</button>
+                </div>
+            </div>
+            <!-- card end -->
+            <!-- card start -->
+            <div class="card">
+                <div class="img"><img src="img/DC_TO_DC_converter_10A.png" alt="DC TO DC converter 10A"></div>
+                <div class="desc" id="id10">A110</div>
+                <div class="title" id="t10">DC TO DC converter 10A</div>
+                <div class="box">
+                    <div class="price"><span class="size">₹</span>250</div>
+                    <button class="btn" onclick="shop('id10', 't10')">Buy Now</button>
+                </div>
+            </div>
+            <!-- card end -->
+            <!-- card start -->
+            <div class="card">
+                <div class="img"><img src="img/Battery_connector.png" alt="Battery connector"></div>
+                <div class="desc" id="id11">A111</div>
+                <div class="title" id="t11">Battery connector</div>
+                <div class="box">
+                    <div class="price"><span class="size">₹</span>50/per</div>
+                    <button class="btn" onclick="shop('id11', 't11')">Buy Now</button>
+                </div>
+            </div>
+            <!-- card end -->
+            <!-- card start -->
+            <div class="card">
+                <div class="img"><img src="img/hall_sensor.png" alt="hall sensor"></div>
+                <div class="desc" id="id12">A112</div>
+                <div class="title" id="t12">hall sensor</div>
+                <div class="box">
+                    <div class="price"><span class="size">₹</span>25/per</div>
+                    <button class="btn" onclick="shop('id12', 't12')">Buy Now</button>
+                </div>
+            </div>
+            <!-- card end -->
+             <!-- card start -->
+             <div class="card">
+                <div class="img"><img src="img/MCB.png" alt="MCB"></div>
+                <div class="desc" id="id13">A113</div>
+                <div class="title" id="t13">MCB</div>
+                <div class="box">
+                    <div class="price"><span class="size">₹</span>140</div>
+                    <button class="btn" onclick="shop('id13', 't13')">Buy Now</button>
+                </div>
+            </div>
+            <!-- card end -->
+            <!-- card start -->
+            <div class="card">
+                <div class="img"><img src="img/Controller&Motor_1500W-_60V.png" alt="Controller&Motor  1500W- 60V"></div>
+                <div class="desc" id="id14">A114</div>
+                <div class="title" id="t14">Controller & Motor 1500W/60V</div>
+                <div class="box">
+                    <div class="price"><span class="size">₹</span>18,000</div>
+                    <button class="btn" onclick="shop('id14', 't14')">Buy Now</button>
+                </div>
+            </div>
+            <!-- card end -->
+            <!-- card start -->
+            <div class="card">
+                <div class="img"><img src="img/Motor_Service.png" alt="Motor Service"></div>
+                <div class="desc" id="id15">A115</div>
+                <div class="title" id="t15">Motor Service</div>
+                <div class="box">
+                    <div class="price"><span class="size">₹</span>500</div>
+                    <button class="btn" onclick="shop('id15', 't15')">Buy Now</button>
+                </div>
+            </div>
+            <!-- card end -->
+
+        </div>
+    </section>
+    
+
+    <footer>
+        <p>Copyrights © <a href="https://www.instagram.com/naveen_single_/" target="_blank">naveenofficial</a></p>
+    </footer>
+    
+    <div class="info" id="contact">
+        <div class="address" data-aos="fade-right" data-aos-duration="1000"><h2>Address</h2><p>4/25, Vappalaipatty road, <br> Mangalapuram, <br>Tamilnadu - 636202, <br> India.</p></div>
+        
+        <div class="about" data-aos="flip-down" data-aos-duration="1000">
+            <h2>About Me</h2>
+            <p> It's me <span>SENTHIL KUMAR</span><br>
+            A Mechanical Engineer</p>
+        </div>
+        <ul class="info-list" data-aos="fade-left" data-aos-duration="500">
+            <h2>Contact</h2>
+            <br>
+            <li><a href="https://www.youtube.com/channel/UC97hsuW18z2w3PTAd32z5Lg/videos">Youtube</a></li>
+            <li><a href="https://wa.me/+919688880848">Whatsapp</a></li>
+            <li><a href="#">☎ (+91)968880848</a></li>
+            <li><a href="mailto:senthilkumar.t420@gmail.com">✉ senthilkumar.t420@gmail.com</a></li>            
+        </ul>
+    </div>
+    <div class="info-res">
+        <div class="address" data-aos="zoom-in" data-aos-duration="1000"><h2>Address</h2><p>4/25, Vappalaipatty road, <br> Mangalapuram, <br>Tamilnadu - 636202, <br> India.</p></div>
+        <hr class="v-hr" data-aos="flip-down">
+
+        <ul class="info-list" data-aos="zoom-in" data-aos-duration="1000">
+            <h2>Contact</h2>
+            <br>
+            <li><a href="https://www.youtube.com/channel/UC97hsuW18z2w3PTAd32z5Lg/videos">Youtube</a></li>
+            <li><a href="https://wa.me/+919688880848">Whatsapp</a></li>
+            <li><a href="#">☎ (+91)968880848</a></li>
+            <li><a href="mailto:senthilkumar.t420@gmail.com">✉ senthilkumar.t420@gmail.com</a></li>            
+        </ul>
+    </div>
+
+<!-- jquery -->
+    <script>
+        $(".menu-btn").click(function (){
+            $(".navbar .menu").toggleClass("active");
+            $(".menu-btn i").toggleClass("active");
+        });
+    </script>
+</body>
+</html>

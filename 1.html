@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+
+    <title>Document</title>
+    <script src="js1.js"></script>
+   
+</head>
+<body>
+    
+    
+
+    <!-- card start -->
+    <div class="card">
+        <div class="img"><img src="img/1.png" alt=""></div>
+        <div class="desc" id="id1">A012</div>
+        <div class="title" id="t1">Switch</div>
+        <div class="box">
+            <div class="price">$50</div>
+            <button class="btn" onclick="shop('id1','t1')">Buy Now</button>
+        </div>
+    </div>
+    <!-- card end -->
+
+    <!-- card start -->
+    <div class="card">
+        <div class="img"><img src="img/1.png" alt=""></div>
+        <div class="desc" id="id2">Women</div>
+        <div class="title" id="t2">Lady Sandal</div>
+        <div class="box">
+            <div class="price">$50</div>
+            <button class="btn" onclick='shop("A202", "bolt")'>Buy Now</button>
+        </div>
+    </div>
+    <!-- card end -->
+
+    <script>
+        // function shop(id, title){
+        //     var link = "https://wa.me/+919566406178?text=" + "I Need this product. Product Name : " + title + " .Product id: "+ id; 
+        //     window.open(link, "_blank");
+        // }
+        function shop(id ,title){
+            var id = document.getElementById(id).innerHTML;
+            var title = document.getElementById(title).innerHTML;
+            console.log("I Need this product. Product Name : " + title + " .Product id: "+ id)
+        }
+
+        // var b = document.getElementById('id1').innerHTML;
+        // console.log(b);
+    </script>
+ 
+</body>
+</html>

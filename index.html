@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js"></script>
+    <link rel="shortcut icon" href="img/tsk_icon.png" type="image/x-icon">
+    <title>TSK</title>
+</head>
+<body>
+    <script>
+        AOS.init();
+    </script>
+
+    <nav class="navbar">
+        <a href="index.html"><div class="logo"><h1>TSK <span>Eco-automobiles</span></h1></div></a>
+        <ul class="menu">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#new-arrival">New Arrivals</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="shop.html" class="shop">Shop<i class="fas fa-shopping-cart" aria-hidden="true"></i></a></li>
+        </ul>
+
+<!-- for resposive button -->
+        <div class="menu-btn">
+            <i class="fa fa-bars"></i>
+        </div>
+    </nav>
+
+<!-- section -->
+
+    <section class="content">
+        <h1>New Arrivals Of Products</h1>
+        <p>Get The Best Machine Products & Services</p>
+        <button onclick='contact()' class="animate__animated animate__tada animate__repeat-3" >Shop / Contact</button>
+    </section>
+
+    <h1 class="pheading" id="new-arrival" data-aos="flip-left" data-aos-duration="1000">Our Latest Products</h1>
+
+    <section class="sec">
+        <div class="products">
+
+             <!-- card start -->  
+             <div class="card">
+                <div class="img"><img src="img/Scooty.png" alt=""></div>
+                <div class="desc" id="la-id1">S101</div>
+                <div class="title" id="la-t1">Scooty - Sports 48v</div>
+                <div class="box">
+                    <div class="price"><span class="size">₹</span>60,000</div>
+                    <button class="btn" onclick="shop('la-id1', 'la-t1')">Buy Now</button>
+                </div>
+            </div>
+            <!-- card end -->
+
+            <!-- card start -->
+            <div class="card">
+                <div class="img"><img src="img/Lead_Acid_60v_battery_charger_ev.jpeg" alt="Lead Acid 60v battery charger ev"></div>
+                <div class="desc" id="la-id2">A102</div>
+                <div class="title" id="la-t2">Lead Acid 60v battery charger ev</div>
+                <div class="box">
+                    <div class="price"><span class="size">₹</span>2,190</div>
+                    <button class="btn" onclick="shop('la-id2', 'la-t2')">Buy Now</button>
+                </div>
+            </div>
+            <!-- card end -->
+
+            <!-- card start -->
+            <div class="card">
+                <div class="img"><img src="img/Lead_Acid_48v_battery_charger_ev.jpg" alt="Lead Acid 48v battery charger ev"></div>
+                <div class="desc" id="la-id3">A103</div>
+                <div class="title" id="la-t3">Lead Acid 48v battery charger ev</div>
+                <div class="box">
+                    <div class="price"><span class="size">₹</span>1,750</div>
+                    <button class="btn" onclick="shop('la-id3', 'la-t3')">Buy Now</button>
+                </div>
+            </div>
+            <!-- card end -->
+        </div>
+        
+        <div class="viewall-btn"><a href="shop.html">
+            <!-- <button class="shadow__btn">View all</button> -->
+
+            <button class="cta">
+                <span>View all</span>
+                <svg viewBox="0 0 13 10" height="10px" width="15px">
+                  <path d="M1,5 L11,5"></path>
+                  <polyline points="8 1 12 5 8 9"></polyline>
+                </svg>
+              </button>
+            </a>
+        </div>
+        <div class="info-res">
+        <div class="address" data-aos="fade-up" data-aos-duration="1000"><h2>Address</h2><p>4/25, Vappalaipatty road, <br> Mangalapuram, <br>Tamilnadu - 636202, <br> India.</p></div>
+        
+        <hr class="v-hr" data-aos="flip-down" data-aos-duration="1000">
+
+        <ul class="info-list" data-aos="fade-up" data-aos-duration="1000">
+            <h2>Contact</h2>
+            <br>
+            <li><a href="https://www.youtube.com/channel/UC97hsuW18z2w3PTAd32z5Lg/videos">Youtube</a></li>
+            <li><a href="https://wa.me/+919688880848">Whatsapp</a></li>
+            <li><a href="#">☎ (+91)968880848</a></li>
+            <li><a href="mailto:senthilkumar.t420@gmail.com">✉ senthilkumar.t420@gmail.com</a></li>            
+        </ul>
+    </div>
+    </section>
+
+    <footer>
+        <p>Copyrights © <a href="https://www.instagram.com/naveen_single_/" target="_blank">naveenofficial</a></p>
+    </footer>
+    
+    <div class="info" id="contact">
+        <div class="address" data-aos="fade-right" data-aos-duration="1000"><h2>Address</h2><p>4/25, Vappalaipatty road, <br> Mangalapuram, <br>Tamilnadu - 636202, <br> India.</p></div>
+        
+        <div class="about" data-aos="flip-down" data-aos-duration="1000">
+            <h2>About Me</h2>
+            <p> It's me <span>SENTHIL KUMAR</span><br>
+            A Mechanical Engineer</p>
+        </div>
+        <ul class="info-list" data-aos="fade-left" data-aos-duration="500">
+            <h2>Contact</h2>
+            <br>
+            <li><a href="https://www.youtube.com/channel/UC97hsuW18z2w3PTAd32z5Lg/videos">Youtube</a></li>
+            <li><a href="https://wa.me/+919688880848">Whatsapp</a></li>
+            <li><a href="#">☎ (+91)968880848</a></li>
+            <li><a href="mailto:senthilkumar.t420@gmail.com">✉ senthilkumar.t420@gmail.com</a></li>            
+        </ul>
+    </div>
+    <div class="info-res">
+        <div class="address" data-aos="fade-up" data-aos-duration="1000"><h2>Address</h2><p>4/25, Vappalaipatty road, <br> Mangalapuram, <br>Tamilnadu - 636202, <br> India.</p></div>
+        
+        <hr class="v-hr" data-aos="flip-down" data-aos-duration="1000">
+
+        <ul class="info-list" data-aos="fade-up" data-aos-duration="1000">
+            <h2>Contact</h2>
+            <br>
+            <li><a href="https://www.youtube.com/channel/UC97hsuW18z2w3PTAd32z5Lg/videos">Youtube</a></li>
+            <li><a href="https://wa.me/+919688880848">Whatsapp</a></li>
+            <li><a href="#">☎ (+91)968880848</a></li>
+            <li><a href="mailto:senthilkumar.t420@gmail.com">✉ senthilkumar.t420@gmail.com</a></li>            
+        </ul>
+    </div>
+
+
+<!-- jquery -->
+    <script>
+        $(".menu-btn").click(function (){
+            $(".navbar .menu").toggleClass("active");
+            $(".menu-btn i").toggleClass("active");
+        });
+    </script>
+
+</body>
+</html>
