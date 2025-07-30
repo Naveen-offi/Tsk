@@ -14,7 +14,7 @@ function shop(id, title){
 
 function contact(){
     var cus_name = prompt("Enter Your Name: ");
-    var link = "https://wa.me/+919566406178?text=" + "Hi, *Senthil Kumar*. I am "+ cus_name + ". I need Your *SERVICE*"; 
+    var link = "https://wa.me/+919566406178?text=" + "Hi, *NAVEEN*. I am "+ cus_name + ". I need Your *SERVICE*"; 
     window.open(link, "_blank");
     // console.log("Hi, Senthil Kumar. I am "+ cus_name + " I need your ***SERVICE***");
 }
